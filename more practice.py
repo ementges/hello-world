@@ -38,6 +38,9 @@ class Point():
 
     def __str__(self):
         return "(" + str(self.x) + ',' + str(self.y) + ')'
+    
+    def _new_(self):
+        print("Hey you")
 
 p1 = Point(3, 4)
 p2 = Point(3, 2)
